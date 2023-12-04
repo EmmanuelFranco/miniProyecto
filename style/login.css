@@ -1,0 +1,97 @@
+.todo {
+    display: flex ;  
+  }
+  
+  .centrar {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 473.83px;
+    height: 634.3px;
+    top: 197.44px;
+    left: 483.08px;
+    border-radius: 24px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    width: 356.48px;
+    height: 48px;
+    top: 456.49px;
+    left: 541.66px;
+    border-radius: 8px;
+    border: 1px solid rgba(189, 189, 189, 1);
+  }
+  
+  .boton {
+    width: 356.48px;
+    margin-bottom: 20px;
+    height: 38px;
+    top: 589.5px;
+    left: 541.66px;
+    border-radius: 8px;
+    background: rgba(47, 128, 237, 1);
+  }
+  
+  .spam1 {
+    margin-bottom: 20px;
+    width: 218px;
+    height: 19px;
+    top: 679.08px; /* Aumentamos 20 píxeles desde la posición original */
+    left: 611px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    text-align: left;
+  
+  }
+  
+  .svg img {
+    margin-right: 20px;
+  }
+  
+  .texto {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px; /* Tamaño de fuente deseado */
+    font-weight: 600; /* Peso de fuente deseado */
+    line-height: 1; /* Espaciado entre líneas */
+    letter-spacing: -3.5%;
+    text-align: start; /* Ajusta la alineación si es necesario */
+    /* Cambia el color del texto según tu preferencia */
+  
+  }
+  
+  .texto1 {
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -3.5%;
+    text-align: start;
+    color: #333; /* Cambia el color del texto según tu preferencia */  
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .centrar {
+      width: 100%; /* Cambiar el ancho al 100% para pantallas más pequeñas */
+    }
+  
+    .input-container, .boton {
+      width: 100%; /* Cambiar el ancho al 100% para pantallas más pequeñas */
+    }
+  }
+  .parrafo{
+   
+    margin: 1rem;
+  }

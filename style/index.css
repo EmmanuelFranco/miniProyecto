@@ -1,0 +1,136 @@
+.todo1 {
+    flex-direction: column;
+  }
+  
+  .dev1 {
+    display: flex;
+    text-align: left;  
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3vh;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .perfil {
+    display: grid;
+    width: 845.91px;
+    height: 580.54px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 1); 
+    margin: 2rem auto; 
+    padding: 2rem;
+    gap: 0.31rem;
+    border-bottom: 1.5px solid gray;
+    
+  }
+  
+  .profil {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1.5px solid gray;
+    
+  }
+  
+  .boton_edit {
+    width: 95.34px;
+    height: 38px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 1); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .img {
+    width: 72px;
+    height: 72px;
+    top: 354.27px;
+    left: 577.31px;
+    border-radius: 8px;
+  }
+  .perfil > div {
+    border-bottom: 1.5px solid gray;
+    align-items: center; 
+    display: flex; 
+    padding-bottom: 1.5rem;
+    justify-content: space-between;
+  }
+  
+  .mitad {
+    display: flex;
+    justify-content: start;
+    width: 33vw;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .perfil {
+      width: 90%; 
+    }
+    
+    .boton_edit {
+      width: 90%;
+    }
+  }
+  
+  
+  .svg-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px; 
+  }
+  .lista {
+    display: grid;
+    list-style: none;
+    justify-content: center;
+    animation: none;
+  }
+  
+  .lista > li > a {
+    text-decoration: none;
+  }
+  
+  
+.dropdown {
+    margin-right: 20px; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .options {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .options a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .options a:hover {
+    background-color: #777;
+  }
+  
+  .dropdown:hover .options{
+    display: block;
+  }
+  .nombreUsu{
+    
+  margin: 1rem;
+  
+  }
+  

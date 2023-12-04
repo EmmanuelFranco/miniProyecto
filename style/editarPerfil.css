@@ -1,0 +1,96 @@
+
+.todo3 {
+  display: flex;
+  flex-direction: column; 
+   margin-bottom: 0px;
+}
+.enlacevolver {
+  display: flex;
+  width: 3rem;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  margin-left: 18rem;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  text-decoration: none;
+}
+
+.chan {
+  margin-top: 10px;
+  margin-left: 5rem;
+}
+
+.editInfo {
+  justify-content: center;
+  align-items: start;
+  position: absolute;
+  width: 845.91px;
+  height: 827.56px;
+  top: 150px;
+  left: 296.57px;
+  border-radius: 12px;
+  /*border: 1px solid;
+  position: absolute;*/
+  border: 1px solid gray;
+}
+
+.mitad {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.svg-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px; 
+}
+
+.lista {
+  display: grid;
+  list-style: none;
+  justify-content: center;
+  animation: none;
+}
+
+.lista > li > a {
+  text-decoration: none;
+}
+
+.dropdown {
+  margin-right: 20px; 
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #555;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #777;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nombreUsu{
+  
+margin: 1rem;
+
+}
